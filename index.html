@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel = "stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <div class ="button-container">
+        <button id="rockBtn">Rock</button>
+        <button id="paperBtn">Paper</button>
+        <button id="scissorsBtn">Scissors</button>
+    </div>
+    <div class ="results-display">
+        <div class = "scoreDisplay">
+            <p>Your score: </p>
+            <p id = "humanScore"> 0 </p>
+        </div>
+        <div class = "scoreDisplay">
+            <p>Clanker's score: </p> <p id = "computerScore"> 0 </p>
+        </div>
+    </div>
 </body>
 </html>
